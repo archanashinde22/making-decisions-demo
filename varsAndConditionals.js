@@ -103,3 +103,14 @@ while(jonSnowHealth > 0)
         console.log(`Jon has been slain`);
     }
 }
+// It will run once  though jon health is leass than zero
+
+do{
+    jonSnowHealth -= (jamieLannisterAttack - jonSnowDefence) ;
+    console.log(`Jon Snow 's health is ${jonSnowHealth}`);
+    if(jonSnowHealth <=0){
+        console.log(`Jon has been slain`);
+    }
+
+}while(jonSnowHealth > 0);
+
